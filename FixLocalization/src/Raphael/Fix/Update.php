@@ -26,6 +26,5 @@ if ($latestVersion !== $pluginVersion) {
         $downloadUrl = $data['assets'][0]['browser_download_url'];
         $downloadMessage = "§cUma nova versão do plugin está disponível. Faça o download em $downloadUrl";
         $plugin->getLogger()->warning($downloadMessage);
-        $plugin->getServer()->getPluginManager()->disablePlugin($plugin);
     }
 }
