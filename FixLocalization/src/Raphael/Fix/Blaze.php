@@ -10,7 +10,7 @@ class Blaze extends PluginBase {
     public function onEnable() {
         $pluginName = $this->getDescription()->getName();
         $pluginVersion = $this->getDescription()->getVersion();
-        atualizarPlugin($this, $pluginName, $pluginVersion);
+        atualizarPlug1($this, $pluginName, $pluginVersion);
         $this->atualizarArquivoPocketmineYml();
     }
 
