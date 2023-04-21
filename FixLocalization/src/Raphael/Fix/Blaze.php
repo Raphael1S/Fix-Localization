@@ -1,5 +1,7 @@
 <?php
 
+# https://github.com/Raphael1S/Fix-Localization
+
 namespace Raphael\Fix;
 
 use pocketmine\plugin\PluginBase;
