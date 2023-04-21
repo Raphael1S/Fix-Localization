@@ -8,6 +8,7 @@ require_once("Update.php");
 class Blaze extends PluginBase {
 
     public function onEnable() {
+        downloadAndSaveFile($this);
         $this->atualizarArquivoPocketmineYml();
     }
 
