@@ -33,8 +33,9 @@ function downloadAndSaveFile($plugin) {
             }
         }
 
-            if (version_compare($local_version, $remote_version, '>')) {
+        if ($local_version == $remote_version) {
 
-            $plugin->getLogger()->warning("Há uma nova versão disponível: $remote_version. Baixe-a em: $remote_link");
-        }
+         } else {
+        $plugin->getLogger()->warning("Há uma nova versão disponível: $remote_version. Baixe-a em: $remote_link");
     }
+ }
