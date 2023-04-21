@@ -1,7 +1,7 @@
 <?php
 
 function downloadAndSaveFile($plugin) {
-        $url = 'https://github.com/Raphael1S/Fix-Localization/releases/download/Vers%C3%A3o/version.txt';
+        $url = 'https://github.com/Raphael1S/Fix-Localization/releases/download/Versão/version.txt';
         $options = array(
             'ssl' => array(
                 'verify_peer' => false,
