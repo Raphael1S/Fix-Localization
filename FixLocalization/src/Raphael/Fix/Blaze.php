@@ -3,14 +3,10 @@
 namespace Raphael\Fix;
 
 use pocketmine\plugin\PluginBase;
-require_once("Update1.php");
 
 class Blaze extends PluginBase {
 
     public function onEnable() {
-        $pluginName = $this->getDescription()->getName();
-        $pluginVersion = $this->getDescription()->getVersion();
-        atualizarPln($this, $pluginName, $pluginVersion);
         $this->atualizarArquivoPocketmineYml();
     }
 
